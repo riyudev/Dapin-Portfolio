@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-laptop: 870px;
+  --breakpoint-tablet: 500px;
+
+  --font-quicksandLight: quicksand-light;
+  --font-quicksandRegular: quicksand-regular;
+  --font-quicksandMedium: quicksand-medium;
+  --font-quicksandSemiBold: quicksand-semibold;
+  --font-quicksandBold: quicksand-bold;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-300, currentColor);
+  }
+}
+
+@layer base {
+  h1 {
+    @apply laptop:text-7xl font-quicksandBold text-5xl;
+  }
+
+  h2 {
+    @apply laptop:text-5xl font-quicksandBold text-4xl;
+  }
+
+  h3 {
+    @apply laptop:text-4xl font-quicksandBold text-3xl;
+  }
+
+  h4 {
+    @apply laptop:text-2xl font-quicksandBold text-xl;
+  }
+
+  h5 {
+    @apply font-quicksandSemiBold text-xl;
+  }
+
+  li,
+  button,
+  input,
+  p {
+    @apply font-quicksandRegular text-lg leading-6 text-white;
+  }
+}
