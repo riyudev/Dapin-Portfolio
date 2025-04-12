@@ -43,7 +43,10 @@
     @apply font-quicksandSemiBold text-xl;
   }
 
-  li,
+  li {
+    @apply font-quicksandBold text-lg leading-6 text-white;
+  }
+
   button,
   input,
   p {
