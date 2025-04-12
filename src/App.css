@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "quicksand-light";
+  font-family: "productsans-regular";
   src:
-    local("Quicksand-Light"),
-    url("./fonts/Quicksand-Light.ttf") format("truetype");
+    local("ProductSans-Regular"),
+    url("./fonts/ProductSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -31,4 +31,8 @@
   src:
     local("Quicksand-Bold"),
     url("./fonts/Quicksand-Bold.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
 }
