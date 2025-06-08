@@ -54,4 +54,8 @@
   p {
     @apply font-quicksandRegular text-lg leading-6 text-white;
   }
+
+  hr {
+    @apply border-2 border-cyan-400;
+  }
 }
