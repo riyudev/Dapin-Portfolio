@@ -36,7 +36,7 @@ function About() {
         </div>
 
         <div className="space-y-5">
-          <blockquote className="space-y-8 rounded-lg bg-gray-800 p-7">
+          <blockquote className="space-y-8 rounded-lg bg-gray-800 p-7 shadow-md shadow-cyan-400">
             <p>
               Hi, I'm Prescilla Dapin. I started web development as a hobby,
               curious about how websites were built and how they worked behind
@@ -51,7 +51,7 @@ function About() {
             </button>
           </blockquote>
 
-          <div className="space-y-7 rounded-lg bg-gray-800 p-7">
+          <div className="space-y-7 rounded-lg bg-gray-800 p-7 shadow-md shadow-cyan-400">
             <div className="flex items-center space-x-5">
               <img src={Ascb} alt="" className="size-20" />
               <img src={Huawei} alt="" className="size-20" />
