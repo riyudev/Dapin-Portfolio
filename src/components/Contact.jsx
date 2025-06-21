@@ -5,7 +5,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 function Contact() {
   return (
-    <section id="contact" className="min-h-screen space-y-10 pt-24">
+    <section id="contact" className="mb-16 space-y-10 pt-24">
       <header className="space-y-5">
         <h3 className="text-center font-bold tracking-wider">Get in Touch</h3>
         <p className="text-center">
