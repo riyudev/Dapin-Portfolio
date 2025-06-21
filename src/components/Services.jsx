@@ -3,7 +3,7 @@ import { servicesData } from "../helpers/ServicesData";
 
 function Services() {
   return (
-    <section id="services" className="space-y-14 pt-24">
+    <section id="services" className="mb-10 space-y-14 pt-24">
       <header className="space-y-2">
         <h3>My Services</h3>
         <hr className="w-48" />
