@@ -6,7 +6,10 @@ import Huawei from "../assets/huawei.jpg";
 
 function About() {
   return (
-    <section id="about" className="space-y-14 pt-24">
+    <section
+      id="about"
+      className="laptop:space-y-14 laptop:pt-24 space-y-8 pt-20"
+    >
       <header className="laptop:items-start flex flex-col items-center justify-center space-y-2">
         <h3>About Me</h3>
         <hr className="w-40" />
