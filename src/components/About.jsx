@@ -46,9 +46,11 @@ function About() {
               both functional and visually engaging.
             </p>
 
-            <button className="px-5 py-2 transition-all duration-150 hover:bg-cyan-400/80 hover:text-slate-950 active:scale-90">
-              My Services →
-            </button>
+            <a href="#services">
+              <button className="px-5 py-2 transition-all duration-150 hover:bg-cyan-400/80 hover:text-slate-950 active:scale-90">
+                My Services →
+              </button>
+            </a>
           </blockquote>
 
           <div className="space-y-7 rounded-lg bg-gray-800 p-7 shadow-md shadow-cyan-400">

@@ -29,9 +29,11 @@ function Home() {
             <button className="border-2 border-cyan-400 px-5 py-3 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
               View Resume
             </button>
-            <button className="border-2 border-cyan-400 px-5 py-3 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
-              Contact Now
-            </button>
+            <a href="#contact">
+              <button className="border-2 border-cyan-400 px-5 py-3 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
+                Contact Now
+              </button>
+            </a>
           </div>
         </div>
 
