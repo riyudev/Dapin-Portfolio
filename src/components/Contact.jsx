@@ -14,7 +14,7 @@ function Contact() {
         </p>
       </header>
       <hr />
-      <div className="grid grid-cols-3 gap-x-10 px-20">
+      <div className="laptop:grid-cols-3 laptop:px-20 laptop:gap-x-10 grid grid-cols-1 gap-y-4 px-8">
         <div className="place-items-center space-y-5 rounded-lg bg-gray-800 p-20 shadow-md shadow-cyan-400 transition-all duration-150 hover:scale-90">
           <MdEmail className="text-6xl text-cyan-400" />
           <p>prescilladapin@gmail.com</p>
