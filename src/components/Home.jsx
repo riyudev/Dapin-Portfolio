@@ -10,7 +10,7 @@ function Home() {
       className="flex min-h-screen items-center justify-center pt-20"
     >
       <div className="laptop:flex-row laptop:space-x-10 laptop:space-y-0 flex flex-col-reverse items-center justify-center space-y-5">
-        <div className="laptop:items-start laptop:text-left flex flex-col items-center space-y-8 text-center">
+        <div className="laptop:items-start laptop:text-left laptop:mt-0 mt-5 flex flex-col items-center space-y-8 text-center">
           <h2 className="font-bold tracking-wider">Hi, I'm Prescilla</h2>
           <div>
             <p>- Professional Web Designer</p>
@@ -26,11 +26,11 @@ function Home() {
           </div>
 
           <div className="flex items-center space-x-3.5">
-            <button className="border-2 border-cyan-400 px-5 py-3 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
+            <button className="border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
               View Resume
             </button>
             <a href="#contact">
-              <button className="border-2 border-cyan-400 px-5 py-3 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
+              <button className="border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
                 Contact Now
               </button>
             </a>

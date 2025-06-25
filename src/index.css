@@ -42,17 +42,17 @@
   }
 
   h5 {
-    @apply font-quicksandSemiBold text-xl text-white;
+    @apply font-quicksandSemiBold laptop:text-xl text-lg text-white;
   }
 
   li {
-    @apply font-quicksandBold text-lg leading-6 text-white;
+    @apply font-quicksandBold laptop:text-lg text-base leading-6 text-white;
   }
 
   button,
   input,
   p {
-    @apply font-quicksandRegular text-lg leading-6 text-white;
+    @apply font-quicksandRegular laptop:text-lg text-base leading-6 text-white;
   }
 
   hr {
