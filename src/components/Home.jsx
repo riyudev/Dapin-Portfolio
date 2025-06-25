@@ -9,8 +9,8 @@ function Home() {
       id="home"
       className="flex min-h-screen items-center justify-center pt-20"
     >
-      <div className="flex items-center justify-center space-x-10">
-        <div className="space-y-8">
+      <div className="laptop:flex-row laptop:space-x-10 laptop:space-y-0 flex flex-col-reverse items-center justify-center space-y-5">
+        <div className="laptop:items-start laptop:text-left flex flex-col items-center space-y-8 text-center">
           <h2 className="font-bold tracking-wider">Hi, I'm Prescilla</h2>
           <div>
             <p>- Professional Web Designer</p>
@@ -38,7 +38,7 @@ function Home() {
         </div>
 
         <div>
-          <img src={Dapin} alt="" className="w-80" />
+          <img src={Dapin} alt="" className="laptop:w-80 w-40" />
         </div>
       </div>
     </section>
