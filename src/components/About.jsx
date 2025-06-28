@@ -18,7 +18,11 @@ function About() {
       <div className="laptop:flex-row laptop:space-x-5 laptop:space-y-0 flex flex-col items-center space-y-5">
         <div className="flex flex-col items-center space-y-4 rounded-lg bg-gray-800 p-7 shadow-md shadow-cyan-400">
           <div>
-            <img src={Dapin} alt="" className="laptop:w-80 w-full max-w-40" />
+            <img
+              src={Dapin}
+              alt=""
+              className="laptop:w-80 laptop:max-w-80 w-full max-w-40"
+            />
           </div>
 
           <h4 className="text-center text-2xl font-bold tracking-wider">

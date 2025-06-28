@@ -26,11 +26,11 @@ function Home() {
           </div>
 
           <div className="flex items-center space-x-3.5">
-            <button className="border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
+            <button className="laptop:px-5 laptop:py-3 border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
               View Resume
             </button>
             <a href="#contact">
-              <button className="border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
+              <button className="laptop:px-5 laptop:py-3 border-2 border-cyan-400 px-4 py-2 inset-shadow-sm inset-shadow-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-slate-950 active:scale-[80%]">
                 Contact Now
               </button>
             </a>
